@@ -1,4 +1,4 @@
-# cocob
+# COCOB
 TensorFlow implementation of COCOB from the paper
 
 **[Backprop without Learning Rates Through Coin Betting](https://arxiv.org/abs/1705.07795)**  
