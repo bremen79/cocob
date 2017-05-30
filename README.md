@@ -37,7 +37,7 @@ you just need to run one algorithm!
 
 Here you find the scripts needed to reproduce the experiment on MNIST data with a fully connected 2-layers network (1000 hidden units each and ReLU activations, mini-batch size of 100) as reported in Figure 2 (top row) of our paper.   
 
-To run the code simply cd to the mnist directory and use
+To run the code simply cd to the *mnist* directory and use
 
 ```
 python mnist_fully_connected.py
