@@ -1,4 +1,4 @@
-# cocob
+# COCOB
 TensorFlow implementation of COCOB from the paper
 
 **[Backprop without Learning Rates Through Coin Betting](https://arxiv.org/abs/1705.07795)**  
@@ -32,6 +32,7 @@ No, you could get the same results just running in parallel copies of SGD with d
 with an algorithm on top. This would lead exactly to the same convergence rate we get with COCOB, but the advantage here is that 
 you just need to run one algorithm!
 
+We refer the interested reader to the [paper](https://arxiv.org/abs/1705.07795) for many more details.
 
 ### Code & Usage
 
@@ -64,4 +65,5 @@ epoch 38, training cost 5.53296e-05, test error 0.0163999
 epoch 39, training cost 5.34391e-05, test error 0.0164999
 ```
 
-
+### History
+05 / 30 / 2017  COCOB Version 1.0 -- Initial release
