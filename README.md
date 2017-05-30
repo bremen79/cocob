@@ -66,4 +66,5 @@ epoch 39, training cost 5.34391e-05, test error 0.0164999
 ```
 
 ### History
-05 / 30 / 2017  COCOB Version 1.0 -- Initial release
+
+* 05/30/2017  COCOB version 1.0 - Initial release
