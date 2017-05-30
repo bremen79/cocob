@@ -52,7 +52,7 @@ wget http://storage.googleapis.com/cvdf-datasets/mnist/train-labels-idx1-ubyte.g
 wget http://storage.googleapis.com/cvdf-datasets/mnist/t10k-images-idx3-ubyte.gz
 wget http://storage.googleapis.com/cvdf-datasets/mnist/t10k-labels-idx1-ubyte.gz
 ```
-While running the code will print on screen the training cost and test error per epoch
+While running, the code will print on screen the training cost and test error per epoch
 
 ```
 epoch 0, training cost 7.38284, test error 0.885 
