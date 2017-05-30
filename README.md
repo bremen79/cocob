@@ -37,3 +37,31 @@ you just need to run one algorithm!
 
 Here you find the scripts needed to reproduce the experiment on MNIST data with a fully connected 2-layers network (1000 hidden units each and ReLU activations, mini-batch size of 100) as reported in Figure 2 (top row) of our paper.   
 
+To run the code simply cd to the mnist directory and use
+
+```
+python mnist_fully_connected.py
+```
+
+It will create a directory *data* where the MNIST data are downloaded and saved. In case of any problem with the data download
+it can also be done manually with 
+
+```
+wget https://storage.googleapis.com/cvdf-datasets/mnist/train-images-idx3-ubyte.gz
+wget http://storage.googleapis.com/cvdf-datasets/mnist/train-labels-idx1-ubyte.gz
+wget http://storage.googleapis.com/cvdf-datasets/mnist/t10k-images-idx3-ubyte.gz
+wget http://storage.googleapis.com/cvdf-datasets/mnist/t10k-labels-idx1-ubyte.gz
+```
+While running the code will print on screen the training cost and test error per epoch
+
+```
+epoch 0, training cost 7.38284, test error 0.885 
+epoch 1, training cost 0.0914842, test error 0.0413998 
+epoch 2, training cost 0.0321911, test error 0.0226998
+...
+epoch 37, training cost 5.72368e-05, test error 0.0164999 
+epoch 38, training cost 5.53296e-05, test error 0.0163999 
+epoch 39, training cost 5.34391e-05, test error 0.0164999
+```
+
+
