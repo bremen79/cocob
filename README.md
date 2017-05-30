@@ -1,4 +1,4 @@
-# COCOB
+# cocob
 TensorFlow implementation of COCOB from the paper
 
 **[Backprop without Learning Rates Through Coin Betting](https://arxiv.org/abs/1705.07795)**  
@@ -33,7 +33,7 @@ with an algorithm on top. This would lead exactly to the same convergence rate w
 you just need to run one algorithm!
 
 
-### Usage
+### Code & Usage
 
-
+Here you find the scripts needed to reproduce the experiment on MNIST data with a fully connected 2-layers network (1000 hidden units each and ReLU activations, mini-batch size of 100) as reported in Figure 2 (top row) of our paper.   
 
