@@ -1,3 +1,9 @@
+**This code is very old and it does not work anymore with the current version of TensorFlow**
+
+For TensorFlow, there is a [version](https://www.tensorflow.org/addons/api_docs/python/tfa/optimizers/COCOB) in the TensorFlow Addons.
+
+For PyTorch, you can find COCOB together with other parameter-free algorithms in a [library](https://github.com/bremen79/parameterfree) I mantain.
+
 # COCOB
 TensorFlow implementation of COCOB from the paper
 
